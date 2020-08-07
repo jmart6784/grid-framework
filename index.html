@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="framework/grid.css">
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
@@ -11,16 +11,53 @@
 <body>
 
   <div class="odin-grid-12 align-items-center pt-2">
-    <div id="header" class="d-flex align-items-center">
+    <div class="d-flex align-items-center grid-column-1_-1">
       <div class="flex-1"></div>
-      <img id="header-logo" class="d-block flex-0.5 justify-self-flex-end" src="images/odin.svg" width="52" height="70">
-      <h3 id="header-title" class="d-block flex-2 ml-5 justify-self-flex-start">THE ODIN PROJECT</h3>
+
+      <img class="d-block flex-0.5 justify-self-flex-end" src="images/odin.svg" width="52" height="70">
+      <h3 class="d-block flex-2 ml-5 justify-self-flex-start text-orange f-family-norse-bold">THE ODIN PROJECT</h3>
       <div class="flex-5"></div>
-      <a href="#" class="d-block flex-1 text-light text-decoration-none">My Courses</a>
-      <a href="#" class="d-block flex-1 text-light text-decoration-none">Community</a>
+      <a href="#" class="d-block flex-1 text-gray text-decoration-none font-weight-bold hov-black">My Courses</a>
+      <a href="#" class="d-block flex-1 text-gray text-decoration-none font-weight-bold hov-black">Community</a>
       <img class="d-block flex-0.5 justify-self-flex-end mt-3 border-left pl-4" src="images/odin.svg" width="30" height="30">
+
       <div class="flex-1"></div>
     </div>
+
+    <div class="grid-column-1_-1 mt-10">
+      <div class="d-flex flex-column">
+        <img id="lesson-badge" class="d-block m-auto" src="images/badge.svg" width="90" height="90">
+        <h3 class="d-block m-auto mt-5 font-weight-light">HTML and CSS</h3>
+        <h6 class="d-block m-auto mt-5 text-orange font-weight-bold">PROJECT: DESIGN YOUR OWN GRID-BASED FRAMEWORK</h6>
+      </div>
+    </div>
+
+    <div class="grid-column-5_10 mt-10">
+      <div class="d-flex flex-column">
+        <h5 class="font-weight-bold p-text">Introduction</h5>
+        <p class="mt-6 p-text">
+          In this final project, you’ll get to take everything you’ve learned and use it to build your own simple grid-based framework. As with the other final projects, we’ll keep it relatively open-ended to give you a chance to exercise your creativity and problem-solving skills. It will be a great project to show off to potential employers as well.
+          <br><br>
+          Once you’re done setting up your framework, you will use it to clone any website you like. If you’re out of ideas, try cloning The Odin Project!
+        </p>
+      </div>
+    </div>
+
+  </div>
+  
+  <div id="test-div" class="odin-grid-12">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+    <div class="grid-item">7</div>
+    <div class="grid-item">8</div>
+    <div class="grid-item">9</div>
+    <div class="grid-item">10</div>
+    <div class="grid-item">11</div>
+    <div class="grid-item">12</div>
   </div>
 
 </body>

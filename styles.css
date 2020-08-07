@@ -1,14 +1,12 @@
 :root {
   --odin-orange: rgb(153, 108, 41);
+  --odin-orange2: #ce973e;
   --odin-blue: rgb(41, 98, 101);
+  --p-text-color: rgb(77, 77, 77);
 }
 
 h1, h2, h3, h4, h5, h6, p, a, div, span, li {
   font-family: 'Open Sans', sans-serif;
-}
-
-body {
-	background-color: rgb(36, 36, 36);
 }
 
 @font-face {
@@ -26,15 +24,53 @@ body {
   src: local('Norse Bold'), url('norse-font/Norsebold.woff') format('woff');
 }
 
-#header {
-  grid-column: 1 / -1;
+.text-gray {
+  color: rgb(126, 126, 126);
 }
 
-#header-logo {
-
+.hov-black:hover {
+  color: black;
 }
 
-#header-title {
+#lesson-badge {
+  border: 10px solid #96B874;
+  border-radius: 100%;
+}
+
+.text-orange {
+  color: var(--odin-orange2);
+}
+
+.f-family-norse {
+  font-family: 'Norse Regular';
+}
+
+.f-family-norse-bold {
   font-family: 'Norse Bold';
-  color: var(--odin-orange);
+}
+
+.p-text {
+  color: var(--p-text-color);
+  line-height: normal;
+}
+
+
+
+
+
+
+#test-div {
+  border: 3px solid rgb(0, 104, 86);
+  margin-top: 200px;
+}
+
+.grid-item {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border: 5px solid rgb(88, 2, 2);
 }
