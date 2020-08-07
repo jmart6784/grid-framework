@@ -66,6 +66,14 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, li, ol {
   list-style-position: inside;
 }
 
+.ul {
+  list-style: square;
+}
+
+.ul2 {
+  list-style: disc;
+}
+
 
 
 
