@@ -1,21 +1,40 @@
+:root {
+  --odin-orange: rgb(153, 108, 41);
+  --odin-blue: rgb(41, 98, 101);
+}
+
+h1, h2, h3, h4, h5, h6, p, a, div, span, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
 	background-color: rgb(36, 36, 36);
 }
 
-.grid-item {
-  border: 1px solid black;
-  padding: 10px;
-  background-color: black;
-  color: rgb(179, 179, 179);
-  border-radius: 50px;
-  border: 1px solid white;
-  font-size: 20px;
-  text-align: center;
-  width: 100%;
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Norse Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Norse Regular'), url('/norse-font/Norse.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Norse Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Norse Bold'), url('norse-font/Norsebold.woff') format('woff');
 }
 
-.test {
-  border: 3px solid rgb(75, 0, 0);
-  margin-bottom: 100px;
+#header {
+  grid-column: 1 / -1;
+}
+
+#header-logo {
+
+}
+
+#header-title {
+  font-family: 'Norse Bold';
+  color: var(--odin-orange);
 }

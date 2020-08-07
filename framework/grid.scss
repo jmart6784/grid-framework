@@ -49,6 +49,18 @@ table {
 	border-spacing: 0;
 }
 
+.d-block {
+  display: block;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
 h1 {
   font-size: 60px;
 }
@@ -758,15 +770,15 @@ $border-color: rgb(168, 168, 168);
 }
 
 .justify-self-center {
-  justify-self: center;
+  margin: auto;
 }
 
 .justify-self-flex-start {
-  justify-self: flex-start;
+  margin-right: auto;
 }
 
 .justify-self-flex-end {
-  justify-self: flex-end;
+  margin-left: auto;
 }
 
 .align-items-flex-end {
@@ -803,6 +815,10 @@ $border-color: rgb(168, 168, 168);
 
 .flex-row-reverse {
   flex-direction: row-reverse;
+}
+
+.flex-0.5 {
+  flex: 0.5;
 }
 
 .flex-1 {
