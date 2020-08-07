@@ -57,6 +57,10 @@ table {
   display: block;
 }
 
+.d-inline {
+  display: inline;
+}
+
 .text-decoration-none {
   text-decoration: none;
 }

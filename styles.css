@@ -5,7 +5,7 @@
   --p-text-color: rgb(77, 77, 77);
 }
 
-h1, h2, h3, h4, h5, h6, p, a, div, span, li {
+h1, h2, h3, h4, h5, h6, p, a, div, span, li, ol {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, li {
 
 .text-gray {
   color: rgb(126, 126, 126);
+}
+
+.bg-light {
+  background-color: rgb(238, 238, 238);
 }
 
 .hov-black:hover {
@@ -54,6 +58,13 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, li {
   line-height: normal;
 }
 
+.ol {
+  list-style: decimal;
+}
+
+.li-inside {
+  list-style-position: inside;
+}
 
 
 
