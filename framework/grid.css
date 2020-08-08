@@ -65,6 +65,10 @@ table {
   text-decoration: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .fit-content {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1442,6 +1446,10 @@ p {
 
 .border-left {
   border-left: 1px solid #a8a8a8;
+}
+
+.border-radius-1 {
+  border-radius: 5px;
 }
 
 /* Flexbox */

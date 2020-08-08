@@ -1,7 +1,7 @@
 :root {
   --odin-orange: rgb(153, 108, 41);
   --odin-orange2: #ce973e;
-  --odin-blue: rgb(41, 98, 101);
+  --odin-blue: #6abfc3;
   --p-text-color: rgb(77, 77, 77);
 }
 
@@ -43,6 +43,30 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, li, ol {
 
 .text-orange {
   color: var(--odin-orange2);
+}
+
+.text-white {
+  color: white;
+}
+
+.bg-orange {
+  background-color: var(--odin-orange2);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-blue {
+  background-color: var(--odin-blue);
+}
+
+.hov-orange-btn:hover {
+  background-color: #c9a367;
+}
+
+.hov-blue-btn:hover {
+  background-color: #80cdd1;
 }
 
 .f-family-norse {
