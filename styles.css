@@ -97,23 +97,3 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, li, ol {
 .ul2 {
   list-style: disc;
 }
-
-
-
-
-
-#test-div {
-  border: 3px solid rgb(0, 104, 86);
-  margin-top: 200px;
-}
-
-.grid-item {
-  box-sizing: border-box;
-  background-color: black;
-  color: white;
-  width: 100%;
-  padding: 10px;
-  border-radius: 20px;
-  text-align: center;
-  border: 5px solid rgb(88, 2, 2);
-}
