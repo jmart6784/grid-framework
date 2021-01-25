@@ -131,8 +131,7 @@ p {
 .odin-grid-12 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
-      grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 }
 
 /* Grid align and justify properties */
@@ -1571,7 +1570,7 @@ p {
           flex-direction: row-reverse;
 }
 
-.flex-0.5 {
+.flex-0-5 {
   -webkit-box-flex: 0.5;
       -ms-flex: 0.5;
           flex: 0.5;
